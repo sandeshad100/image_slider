@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid blue;
+    position: relative;
+    overflow: hidden; 
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.8s ease-in;
+    object-fit: cover;
+}
+
+nav{
+    margin-top: 15px;
+    text-align: center;
+}
+nav button{
+    padding: 10px;
+}
